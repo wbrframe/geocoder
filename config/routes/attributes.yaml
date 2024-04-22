@@ -1,0 +1,9 @@
+controllers:
+    resource: '../../src/Controller/API/V10/'
+    prefix: '/api/v1.0'
+    trailing_slash_on_root: fals
+    type: attribute
+
+kernel:
+  resource: App\Kernel
+  type: attribute
